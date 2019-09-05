@@ -8,13 +8,13 @@ class Stack:
     def pop(self):
         return self.deva.pop()
 subi= Stack()
-barathi = input(' ') 
-for char in barathi:
+barathii = input(' ') 
+for char in barathii:
     subi.push(char)
 rev_text = ''
 while not subi.is_empty():
     rev_text = rev_text + subi.pop()
-if barathi== rev_text:
+if barathii== rev_text:
     print('YES')
 else:
     print('NO')
